@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.faller_martinez_ruben_adolfo_DI05_Tarea.ArtistasController">
+   <children>
+      <ListView fx:id="listView" prefHeight="329.0" prefWidth="600.0" stylesheets="@../../../stylesheet.css" />
+      <Button layoutY="329.0" mnemonicParsing="false" onAction="#handlerInforme" prefHeight="72.0" prefWidth="600.0" stylesheets="@../../../stylesheet.css" text="Generar informe" />
+   </children>
+</AnchorPane>
